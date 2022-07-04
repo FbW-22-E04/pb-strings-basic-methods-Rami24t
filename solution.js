@@ -17,7 +17,8 @@ console.log(jsStr.substring(3,6));
 
 //5.
 let niceShoesStr = "nice shoes";
-console.log(niceShoesStr.includes('l') || niceShoesStr.includes('n'));
+console.log(niceShoesStr.includes('l')); 
+console.log(niceShoesStr.includes('n'));
 
 //6.
 let oldStr = 'choice';
