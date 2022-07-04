@@ -29,13 +29,12 @@ let scritcherStr = 'Scritch';
 let lastThreeChars = scritcherStr.slice(-3);
 console.log(lastThreeChars + scritcherStr + lastThreeChars);
 
-//8.boogieNightsStr
-let boogieNightsStr = 
-let boogieNightStr = 'BoogieWoogie';
-let firstChar = boogieNightStr[0];
-boogieNightStr = boogieNightStr.replace(boogieNightStr[0], boogieNightStr.slice(-1));
-boogieNightStr = boogieNightStr.slice(0,-1)+ firstChar;
-console.log(boogieNightStr);
+//8.
+let boogieNightsStr = 'BoogieWoogie';
+let firstChar = boogieNightsStr[0];
+boogieNightsStr = boogieNightsStr.replace(boogieNightsStr[0], boogieNightsStr.slice(-1));
+boogieNightsStr = boogieNightsStr.slice(0,-1)+ firstChar;
+console.log(boogieNightsStr);
 
 
 //9.
