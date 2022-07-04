@@ -1,4 +1,3 @@
-
 //1.
 let parkWalkStr = "I can walk in the park all day!";
 console.log(parkWalkStr.slice(-13,-8));
@@ -30,14 +29,14 @@ let scritcherStr = 'Scritch';
 let lastThreeChars = scritcherStr.slice(-3);
 console.log(lastThreeChars + scritcherStr + lastThreeChars);
 
-//8.
-{
+//8.boogieNightsStr
+let boogieNightsStr = 
 let boogieNightStr = 'BoogieWoogie';
 let firstChar = boogieNightStr[0];
 boogieNightStr = boogieNightStr.replace(boogieNightStr[0], boogieNightStr.slice(-1));
 boogieNightStr = boogieNightStr.slice(0,-1)+ firstChar;
 console.log(boogieNightStr);
-}
+
 
 //9.
 let firstName = 'Rami';
