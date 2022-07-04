@@ -47,3 +47,18 @@ console.log('My name is', firstName + '. I live in '+city+' and I am the '+ job 
 const foxStr = 'the quick brown fox';
 const capitalizeFirst = foxStr[0].toUpperCase() + foxStr.substring(1);
 console.log(capitalizeFirst);
+
+/** 
+//RESULTS:
+- park debugger eval code:3:9
+- HELLO WORLD debugger eval code:7:9
+- hello earthling debugger eval code:11:9
+- aSc debugger eval code:15:9
+- false debugger eval code:19:9
+- true debugger eval code:20:9
+- cchoicec debugger eval code:25:9
+- tchScritchtch debugger eval code:30:9
+- eoogieWoogiB debugger eval code:37:9
+- My name is Rami. I live in The Valley of The Wind and I am the Software Engineering prince of Narnia XD. debugger eval code:44:9
+- The quick brown fox debugger eval code:49:9
+ */
